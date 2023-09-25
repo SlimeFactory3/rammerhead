@@ -21,7 +21,6 @@ module.exports = {
     // ssl object is either null or { key: fs.readFileSync('path/to/key'), cert: fs.readFileSync('path/to/cert') }
     // for more info, see https://nodejs.org/api/https.html#https_https_createserver_options_requestlistener
     ssl: null,
-
     // this function's return object will determine how the client url rewriting will work.
     // set them differently from bindingAddress and port if rammerhead is being served
     // from a reverse proxy.
